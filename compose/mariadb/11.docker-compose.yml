@@ -1,5 +1,5 @@
 services:
-  mariadb-latest:
+  mariadb-11:
     image: mariadb:11
     container_name: mariadb-11
     environment:

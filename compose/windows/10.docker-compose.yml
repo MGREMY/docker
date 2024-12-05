@@ -1,7 +1,7 @@
 services:
-  windows10:
+  windows-10:
     image: dockurr/windows
-    container_name: windows10
+    container_name: windows-10
     volumes:
       - /home/mgremy/docker/storage/windows/10:/storage
     devices:
