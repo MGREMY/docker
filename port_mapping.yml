@@ -1,0 +1,13 @@
+windows:
+  10:
+    - 8006:8006  # For RDP
+    - 4010:3389  # For TCP
+    - 4010:3389  # For UDP
+dev:
+  datalust/seq:
+    - 4101:01    # For HTTP
+mariadb:
+  latest:
+    - 4150:3306  # For SQL connection
+  11:
+    - 4151:3306  # For SQL connection

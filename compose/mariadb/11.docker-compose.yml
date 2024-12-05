@@ -1,0 +1,12 @@
+services:
+  mariadb-latest:
+    image: mariadb:11
+    container_name: mariadb-11
+    environment:
+      MARIADB_USER: user
+      MARIADB_PASSWORD: password
+      MARIADB_ROOT_PASSWORD: password
+    ports:
+      - 4151:3306
+    volumes:
+      - /home/mgremy/docker/storage/mariadb/11:/var/lib/mysql

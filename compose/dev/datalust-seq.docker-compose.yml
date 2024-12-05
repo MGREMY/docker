@@ -1,0 +1,12 @@
+services:
+  seq:
+    image: datalust/seq
+    container_name: datalust-seq
+    volumes:
+      - /home/mgremy/docker/storage/dev/datalust-seq:/data
+    ports:
+      - 4101:80
+    environment:
+      ACCEPT_EULA: Y
+      #password => admin
+      SEQ_FIRSTRUN_ADMINPASSWORDHASH: QIQtxh074/Sm8iL7oIgP98eUb2CRwFneyXH4E12FxYc692GanRS1E6waYxFg5mOtCZMbJKaj8WgPOJYidgedJDJnBmO66T3SWfaVGeiNIpgX
