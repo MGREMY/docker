@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows-10
     volumes:
-      - /home/mgremy/docker/storage/windows/10:/storage
+      - ../../storage/windows/10:/storage
     devices:
       - /dev/kvm
     cap_add:

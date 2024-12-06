@@ -3,7 +3,7 @@ services:
     image: datalust/seq
     container_name: datalust-seq
     volumes:
-      - /home/mgremy/docker/storage/dev/datalust-seq:/data
+      - ../../storage/dev/datalust-seq:/data
     ports:
       - 4101:80
     environment:

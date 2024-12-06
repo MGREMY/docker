@@ -9,5 +9,5 @@ services:
     ports:
       - 4150:3306
     volumes:
-      - /home/mgremy/docker/storage/mariadb/latest:/var/lib/mysql
+      - ../../storage/mariadb/latest:/var/lib/mysql
 
