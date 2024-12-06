@@ -5,7 +5,7 @@ windows:
     - 4010:3389  # For UDP
 dev:
   datalust/seq:
-    - 4101:01    # For HTTP
+    - 4101:80    # For HTTP
 mariadb:
   latest:
     - 4150:3306  # For SQL connection
